@@ -1,0 +1,77 @@
+'Human' ai_prefix='AI' memory_key='history'
+Running on local URL:  http://127.0.0.1:7860
+
+To create a public link, set `share=True` in `launch()`.
+Traceback (most recent call last):
+  File "/home/acampton/anaconda3/envs/askpdfs/lib/python3.9/site-packages/gradio/routes.py", line 534, in predict
+    output = await route_utils.call_process_api(
+  File "/home/acampton/anaconda3/envs/askpdfs/lib/python3.9/site-packages/gradio/route_utils.py", line 226, in call_process_api
+    output = await app.get_blocks().process_api(
+  File "/home/acampton/anaconda3/envs/askpdfs/lib/python3.9/site-packages/gradio/blocks.py", line 1559, in process_api
+    data = self.postprocess_data(fn_index, result["prediction"], state)
+  File "/home/acampton/anaconda3/envs/askpdfs/lib/python3.9/site-packages/gradio/blocks.py", line 1447, in postprocess_data
+    prediction_value = block.postprocess(prediction_value)
+  File "/home/acampton/anaconda3/envs/askpdfs/lib/python3.9/site-packages/gradio/components/file.py", line 234, in postprocess
+    return [
+  File "/home/acampton/anaconda3/envs/askpdfs/lib/python3.9/site-packages/gradio/components/file.py", line 236, in <listcomp>
+    "orig_name": Path(file).name,
+  File "/home/acampton/anaconda3/envs/askpdfs/lib/python3.9/pathlib.py", line 1082, in __new__
+    self = cls._from_parts(args, init=False)
+  File "/home/acampton/anaconda3/envs/askpdfs/lib/python3.9/pathlib.py", line 707, in _from_parts
+    drv, root, parts = self._parse_args(args)
+  File "/home/acampton/anaconda3/envs/askpdfs/lib/python3.9/pathlib.py", line 691, in _parse_args
+    a = os.fspath(a)
+TypeError: expected str, bytes or os.PathLike object, not _TemporaryFileWrapper
+Traceback (most recent call last):
+  File "/home/acampton/anaconda3/envs/askpdfs/lib/python3.9/site-packages/gradio/routes.py", line 534, in predict
+    output = await route_utils.call_process_api(
+  File "/home/acampton/anaconda3/envs/askpdfs/lib/python3.9/site-packages/gradio/route_utils.py", line 226, in call_process_api
+    output = await app.get_blocks().process_api(
+  File "/home/acampton/anaconda3/envs/askpdfs/lib/python3.9/site-packages/gradio/blocks.py", line 1559, in process_api
+    data = self.postprocess_data(fn_index, result["prediction"], state)
+  File "/home/acampton/anaconda3/envs/askpdfs/lib/python3.9/site-packages/gradio/blocks.py", line 1447, in postprocess_data
+    prediction_value = block.postprocess(prediction_value)
+  File "/home/acampton/anaconda3/envs/askpdfs/lib/python3.9/site-packages/gradio/components/file.py", line 234, in postprocess
+    return [
+  File "/home/acampton/anaconda3/envs/askpdfs/lib/python3.9/site-packages/gradio/components/file.py", line 236, in <listcomp>
+    "orig_name": Path(file).name,
+  File "/home/acampton/anaconda3/envs/askpdfs/lib/python3.9/pathlib.py", line 1082, in __new__
+    self = cls._from_parts(args, init=False)
+  File "/home/acampton/anaconda3/envs/askpdfs/lib/python3.9/pathlib.py", line 707, in _from_parts
+    drv, root, parts = self._parse_args(args)
+  File "/home/acampton/anaconda3/envs/askpdfs/lib/python3.9/pathlib.py", line 691, in _parse_args
+    a = os.fspath(a)
+TypeError: expected str, bytes or os.PathLike object, not _TemporaryFileWrapper
+Traceback (most recent call last):
+  File "/home/acampton/anaconda3/envs/askpdfs/lib/python3.9/site-packages/gradio/routes.py", line 534, in predict
+    output = await route_utils.call_process_api(
+  File "/home/acampton/anaconda3/envs/askpdfs/lib/python3.9/site-packages/gradio/route_utils.py", line 226, in call_process_api
+    output = await app.get_blocks().process_api(
+  File "/home/acampton/anaconda3/envs/askpdfs/lib/python3.9/site-packages/gradio/blocks.py", line 1559, in process_api
+    data = self.postprocess_data(fn_index, result["prediction"], state)
+  File "/home/acampton/anaconda3/envs/askpdfs/lib/python3.9/site-packages/gradio/blocks.py", line 1447, in postprocess_data
+    prediction_value = block.postprocess(prediction_value)
+  File "/home/acampton/anaconda3/envs/askpdfs/lib/python3.9/site-packages/gradio/components/file.py", line 234, in postprocess
+    return [
+  File "/home/acampton/anaconda3/envs/askpdfs/lib/python3.9/site-packages/gradio/components/file.py", line 236, in <listcomp>
+    "orig_name": Path(file).name,
+  File "/home/acampton/anaconda3/envs/askpdfs/lib/python3.9/pathlib.py", line 1082, in __new__
+    self = cls._from_parts(args, init=False)
+  File "/home/acampton/anaconda3/envs/askpdfs/lib/python3.9/pathlib.py", line 707, in _from_parts
+    drv, root, parts = self._parse_args(args)
+  File "/home/acampton/anaconda3/envs/askpdfs/lib/python3.9/pathlib.py", line 691, in _parse_args
+    a = os.fspath(a)
+TypeError: expected str, bytes or os.PathLike object, not _TemporaryFileWrapper
+Traceback (most recent call last):
+  File "/home/acampton/anaconda3/envs/askpdfs/lib/python3.9/site-packages/gradio/routes.py", line 534, in predict
+    output = await route_utils.call_process_api(
+  File "/home/acampton/anaconda3/envs/askpdfs/lib/python3.9/site-packages/gradio/route_utils.py", line 226, in call_process_api
+    output = await app.get_blocks().process_api(
+  File "/home/acampton/anaconda3/envs/askpdfs/lib/python3.9/site-packages/gradio/blocks.py", line 1550, in process_api
+    result = await self.call_function(
+  File "/home/acampton/anaconda3/envs/askpdfs/lib/python3.9/site-packages/gradio/blocks.py", line 1193, in call_function
+    raise ValueError("Need to enable queue to use generators.")
+ValueError: Need to enable queue to use generators.
+
+
+
